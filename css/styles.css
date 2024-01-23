@@ -569,18 +569,6 @@ body{
         width: 80%;
     }
 
-    .download{
-        width: 100%;
-    }
-
-    .download_app{
-        justify-content: space-between;
-    }
-
-    .download_item{
-        width: 45%;
-    }
-
     .get-email{
         width: 100%;
         margin-bottom: 40px;
@@ -749,17 +737,4 @@ body{
         padding: none;
         justify-content: center;
     }
-
-    .download_item{
-        width: 49%;
-    }
-
-    .download_title{
-        font-size: 16px;
-    }
-
-    .download_logo{
-        font-size: 16px;
-    }
-
 }
