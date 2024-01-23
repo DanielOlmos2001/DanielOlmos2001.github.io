@@ -372,7 +372,9 @@ body{
 }
 
 .google_logo{
+    max-width: 100%;
     margin-bottom: 20px;
+    height: auto;
 }
 
 .testimony_history{
