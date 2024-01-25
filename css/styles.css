@@ -396,6 +396,37 @@ body{
     object-position: center top;
 }
 
+/* Slider */
+.slider-frame ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.slider-frame li {
+    display: none;
+    width: 100%;
+    height: 100%; 
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out, transform 1s ease-in-out;
+    transform: scale(0.95);
+}
+
+.slider-frame li.active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.slider-frame img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Apartado CHECK */
 .check{
     display: flex;
